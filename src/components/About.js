@@ -8,7 +8,9 @@ const About = () => {
       <div className="aboutContainer">
         <div className="title">About me</div>
         <div className="contentContainer">
-          <img src={ProfilePic} className="profilePic" alt="profile"></img>
+          <div>
+            <img src={ProfilePic} className="profilePic" alt="profile"></img>
+          </div>
           <p className="aboutMe">
             I am a developer that just recently finished a 12-week intensive
             full stack bootcamp at General Assembly. I am looking for

@@ -35,11 +35,12 @@ const Projects = () => {
               challenge and learning experience.
             </div>
             <div className="projectLinks">
-              <a href="#">Live</a> // <a href="#">Repo</a>
+              <a href="https://mtg-game-beta.netlify.app/">Live</a> //{" "}
+              <a href="https://github.com/yang-rich/mtg-game">Repo</a>
             </div>
           </div>
           <div className="projectCard">
-            <div className="projectTitle">travelgram</div>
+            <div className="projectTitle">travelGram</div>
             <div className="projectVideoContainer">
               <video className="projectVideo" autoPlay loop muted>
                 <source src={Project3} type="video/mp4" />
@@ -49,11 +50,12 @@ const Projects = () => {
               Project centered around the implementation of CRUD. Created an app
               based on the idea of instagram that allows users post images as
               well as comments. Biggest takeaway personally was learning how to
-              either have forms maintain their previous values so edits can be
+              set up forms to maintain their previous values so edits can be
               done without filling in every field again.
             </div>
             <div className="projectLinks">
-              <a href="#">Live</a> // <a href="#">Repo</a>
+              <a href="https://travel-gram-app.herokuapp.com/">Live</a> //{" "}
+              <a href="https://github.com/onerivas/CardGameApp">Repo</a>
             </div>
           </div>
         </div>
@@ -75,7 +77,8 @@ const Projects = () => {
               mongoDB.
             </div>
             <div className="projectLinks">
-              <a href="#">Live</a> // <a href="#">Repo</a>
+              <a href="https://movie-app-2020.herokuapp.com/movies">Live</a> //{" "}
+              <a href="https://github.com/yang-rich/project2">Repo</a>
             </div>
           </div>
           <div className="projectCard">
@@ -94,7 +97,10 @@ const Projects = () => {
               modals.
             </div>
             <div className="projectLinks">
-              <a href="#">Live</a> // <a href="#">Repo</a>
+              <a href="https://yang-rich.github.io/BDO_CLASS_APP/">Live</a> //{" "}
+              <a href="https://github.com/yang-rich/yang-rich.github.io/tree/master/BDO_CLASS_APP">
+                Repo
+              </a>
             </div>
           </div>
         </div>
