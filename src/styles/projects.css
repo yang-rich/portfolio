@@ -1,0 +1,36 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.projectHeading {
+  font-size: 48px;
+  color: cyan;
+}
+.projectCardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.projectTitle {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.projectVideo {
+  padding-bottom: 2%;
+  max-width: 500px;
+}
+.projectDescription {
+  color: white;
+  text-align: left;
+  padding-bottom: 2%;
+}
+.projectLinks {
+  color: white;
+}

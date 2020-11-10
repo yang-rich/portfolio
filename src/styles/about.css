@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-bottom: 3%;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.title {
+  text-align: left;
+  font-size: 48px;
+  color: cyan;
+  margin: auto;
+  margin-bottom: 2%;
+}
+.profilePic {
+  width: 50%;
+}
+.aboutMe {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  color: cyan;
+  text-align: left;
+  line-height: 70px;
+}

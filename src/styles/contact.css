@@ -1,0 +1,13 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+}
+.contactMe {
+  color: cyan;
+}
+.email {
+  color: white;
+}

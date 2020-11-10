@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.banner {
+  text-align: center;
+  position: relative;
+  background-color: black;
+}
+.videoBanner {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.bannerText {
+  right: 10%;
+  top: 10%;
+  z-index: 100;
+  font-size: 72px;
+  color: white;
+  position: absolute;
+}
+.bannerP {
+  right: 10%;
+  top: 20%;
+  z-index: 100;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  text-align: right;
+  margin-top: 60px;
+}

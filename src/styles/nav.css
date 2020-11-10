@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: cyan;
+}
+.navContainer {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+.linkButtons {
+  padding-left: 20px;
+  font-size: 24px;
+  color: red;
+}
