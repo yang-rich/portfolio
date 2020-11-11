@@ -15,11 +15,13 @@ const Projects = () => {
         <div className="projectCardContainer">
           <div className="projectCard">
             <div className="projectTitle">MTG Game</div>
-            <div className="projectVideoContainer">
-              <video className="projectVideo" autoPlay loop muted>
-                <source src={Project4} type="video/mp4" />
-              </video>
-            </div>
+            <a href="https://mtg-game-beta.netlify.app/">
+              <div className="projectVideoContainer">
+                <video className="projectVideo" autoPlay loop muted>
+                  <source src={Project4} type="video/mp4" />
+                </video>
+              </div>
+            </a>
             <div className="projectDescription">
               Final project of a 12-week long intensive bootcamp at
               GeneralyAssembly resulted in the preliminary build of a Magic: The
@@ -35,11 +37,13 @@ const Projects = () => {
           </div>
           <div className="projectCard">
             <div className="projectTitle">travelGram</div>
-            <div className="projectVideoContainer">
-              <video className="projectVideo" autoPlay loop muted>
-                <source src={Project3} type="video/mp4" />
-              </video>
-            </div>
+            <a href="https://travel-gram-app.herokuapp.com/">
+              <div className="projectVideoContainer">
+                <video className="projectVideo" autoPlay loop muted>
+                  <source src={Project3} type="video/mp4" />
+                </video>
+              </div>
+            </a>
             <div className="projectDescription">
               Project centered around the implementation of CRUD. Created an app
               based on the idea of instagram that allows users post images as
@@ -56,11 +60,13 @@ const Projects = () => {
         <div className="projectCardContainer">
           <div className="projectCard">
             <div className="projectTitle">Ramajohns Movie App</div>
-            <div className="projectVideoContainer">
-              <video className="projectVideo" autoPlay loop muted>
-                <source src={Project2} type="video/mp4" />
-              </video>
-            </div>
+            <a href="https://movie-app-2020.herokuapp.com/movies">
+              <div className="projectVideoContainer">
+                <video className="projectVideo" autoPlay loop muted>
+                  <source src={Project2} type="video/mp4" />
+                </video>
+              </div>
+            </a>
             <div className="projectDescription">
               Developed a movie night app with the intention of allowing my
               friends to be able to come to the site and see what we had
@@ -77,11 +83,13 @@ const Projects = () => {
           </div>
           <div className="projectCard">
             <div className="projectTitle">BDO Class App</div>
-            <div className="projectVideoContainer">
-              <video className="projectVideo" autoPlay loop muted>
-                <source src={Project1} type="video/mp4" />
-              </video>
-            </div>
+            <a href="https://yang-rich.github.io/BDO_CLASS_APP/">
+              <div className="projectVideoContainer">
+                <video className="projectVideo" autoPlay loop muted>
+                  <source src={Project1} type="video/mp4" />
+                </video>
+              </div>
+            </a>
             <div className="projectDescription">
               A tracking app that helps new players look up pricing of items
               from the video game Black Desert Online. App works off API calls
