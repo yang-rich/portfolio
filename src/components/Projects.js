@@ -26,15 +26,7 @@ const Projects = () => {
               Gathering game where a user can play against the Computer. The app
               was developed using create-react-app and attempts to tackles many
               of the more difficult aspects of React.js such as functional
-              components and the use of hooks to handle the complicated subject
-              of game logic. The current plan is to not only finish writing game
-              logic to account for all the special cases invovling card
-              abilities but to also implement users and sessions to allow for
-              online play between players as well as a separate page that will
-              allow players to upload their own decks and generate decks for the
-              game using the official API. While React.js may not have been
-              intended for game coding, this project has proven a great
-              challenge and learning experience.
+              components and the use of hooks.
             </div>
             <div className="projectLinks">
               <a href="https://mtg-game-beta.netlify.app/">Live</a> //{" "}
