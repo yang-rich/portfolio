@@ -29,3 +29,11 @@
   text-align: right;
   margin-top: 60px;
 }
+@media only screen and (max-width: 600px) {
+  .bannerText {
+    font-size: 40px;
+  }
+  .bannerP {
+    font-size: 24px;
+  }
+}

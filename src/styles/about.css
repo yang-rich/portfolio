@@ -20,6 +20,11 @@ body {
   margin: auto;
   margin-bottom: 2%;
 }
+.pictureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .profilePic {
   width: 100%;
 }
@@ -32,4 +37,33 @@ body {
   color: cyan;
   text-align: left;
   line-height: 70px;
+}
+@media only screen and (max-width: 1100px) {
+  .contentContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .aboutContainer {
+    width: 100%;
+  }
+  .aboutMe {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+  .contentContainer {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .aboutContainer {
+    width: 100%;
+  }
+  .aboutMe {
+    font-size: 10px;
+    line-height: 24px;
+  }
 }

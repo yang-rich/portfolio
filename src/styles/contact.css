@@ -4,10 +4,35 @@
 }
 .title {
   text-align: center;
+  margin-bottom: 1%;
 }
 .contactMe {
   color: cyan;
 }
 .email {
   color: white;
+}
+.profLinks {
+  display: flex;
+  justify-content: center;
+}
+.gitHub {
+  background-color: white;
+  filter: invert(1);
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  margin: 5px 5px 5px 5px;
+}
+.linkedIn {
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  margin: 5px 5px 5px 5px;
+}
+.pdf {
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  margin: 5px 0px;
 }
