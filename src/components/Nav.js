@@ -6,13 +6,13 @@ const Nav = () => {
     <>
       <div className="navContainer">
         <div className="linkButtons">
-          <a href="#">ABOUT</a>
+          <a href="#aboutMe">ABOUT</a>
         </div>
         <div className="linkButtons">
-          <a href="#">PROJECTS</a>
+          <a href="#projectHead">PROJECTS</a>
         </div>
         <div className="linkButtons">
-          <a href="#">CONTACT</a>
+          <a href="#contacts">CONTACT</a>
         </div>
       </div>
     </>

@@ -9,7 +9,9 @@ const Projects = () => {
   return (
     <>
       <div className="projectContainer">
-        <div className="projectHeading">Projects</div>
+        <div className="projectHeading" id="projectHead">
+          Projects
+        </div>
         <div className="projectCardContainer">
           <div className="projectCard">
             <div className="projectTitle">MTG Game</div>
