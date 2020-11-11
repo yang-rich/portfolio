@@ -24,7 +24,7 @@ const Projects = () => {
               Final project of a 12-week long intensive bootcamp at
               GeneralyAssembly resulted in the preliminary build of a Magic: The
               Gathering game where a user can play against the Computer. The app
-              was developed using create-react-app and attempts to tackles many
+              was developed using create-react-app and attempts to tackle many
               of the more difficult aspects of React.js such as functional
               components and the use of hooks.
             </div>
